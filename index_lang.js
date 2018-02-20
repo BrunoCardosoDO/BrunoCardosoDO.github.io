@@ -1,9 +1,10 @@
-switch (location.hash.substr(1)){
-	case "1":
-		document.getElementById("en-US").style.display='true';
+var lang = location.hash.substr(1)
+switch (lang){
+	case "l=1":
+		document.getElementById("pt-BR").style.display='none';
 		break;
-	case "2":
-		document.getElementById("pt-BR").style.display='true';
+	case "l=2":
+		document.getElementById("en-US").style.display='none';
 		break;
 	default:
 		document.getElementById("en-US").style.display='true';
