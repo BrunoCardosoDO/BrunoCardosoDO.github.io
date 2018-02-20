@@ -1,4 +1,4 @@
-switch (l){
+switch (location.hash.substr(1)){
 	case "1":
 		document.getElementById("en-US").style.display='true';
 		break;
