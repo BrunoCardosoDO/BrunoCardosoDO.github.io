@@ -1,0 +1,9 @@
+.sideBar{
+	background-color: #4040a0;
+}
+.UpperMenu{
+	background-color: #3c3cbc;
+}	
+.Main{
+	background-color: #5050b0;
+}
