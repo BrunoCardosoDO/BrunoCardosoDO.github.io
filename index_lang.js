@@ -1,5 +1,4 @@
-function setLang()
-{
+function setLang(){
 	switch (location.hash.substr(1)){
 		case "l=1":
 			document.getElementById("pt-BR").style.display='none';
@@ -10,4 +9,5 @@ function setLang()
 		default:
 			document.getElementById("pt-BR").style.display='none';
 			break;
+	}
 }
