@@ -1,7 +1,6 @@
 function setLang()
 {
-	var lang = location.hash.substr(1)
-	switch (lang){
+	switch (location.hash.substr(1)){
 		case "l=1":
 			document.getElementById("pt-BR").style.display='none';
 			break;
