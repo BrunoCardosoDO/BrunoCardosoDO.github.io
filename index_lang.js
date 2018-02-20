@@ -7,6 +7,6 @@ switch (lang){
 		document.getElementById("en-US").style.display='none';
 		break;
 	default:
-		document.getElementById("en-US").style.display='true';
+		document.getElementById("pt-BR").style.display='none';
 		break;
 }
