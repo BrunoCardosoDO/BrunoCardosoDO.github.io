@@ -1,9 +1,48 @@
 .sideBar{
 	background-color: #4040a0;
 }
-.upperMenu{
+.upperBar{
 	background-color: #3c3cbc;
+	
 }	
 .Main{
 	background-color: #5050b0;
+}
+.PageFrame{
+	width: 70%px;
+	height: 100%;
+}
+p{
+	color: #c0c0f0;
+}
+h2{
+	color: #a9a9d9;
+}
+
+iframe:focus { 
+    outline: none;
+}
+
+iframe[seamless] { 
+    display: block;
+} 
+/* unvisited link*/
+a:link {
+    color: #f9f9fc;
+}
+
+/* visited link */
+a:visited {
+    color: #f0f0f9;
+}
+
+/* mouse over link */
+a:hover {
+    color: #c0c0f0;
+}
+
+/* selected link */
+a:active {
+    color: #ffffff;
+}
 }

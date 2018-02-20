@@ -1,6 +1,10 @@
+<!DOCTYPE html>
+<html>
 <head>
 	<title> Bruno Cardoso </title>
 	<script type="text/javascript" src="index_lang.js"></script>
+	<meta charset="UTF-8"> 
+	<link rel="stylesheet" href="base_style.css">
 </head>
 <body text="#c0c0f0" bgcolor="#6060c0" onLoad="setLang()">
 	<div id='en-US' style='display: none'>
@@ -26,29 +30,30 @@
 			</td>
 		</table>
 	</div>
-	<div id='pt-BR' style='display: none'>
+	<div id='pt-BR' align="center" style='display: none'>
 		<table align="center">
 			<tbody>
-				<tr width="1200" align="center" >
-					<div class="upperBar">
-						<p>Idioma:</p>
-						<a href="index.html#l=1" onmouseup="location.reload()">EN-US</a>
-						<a href="index.html#l=2" onmouseup="location.reload()">PT-BR</a>
-					</div>
+				<tr width="100%" align="center" class="upperBar">
+					<td align="left">
+						<div align="center">
+							<h4>Idioma:</h4>
+							<a href="index.html#l=1" onmouseup="location.reload()">EN-US</a>
+							<a href="index.html#l=2" onmouseup="location.reload()">PT-BR</a>
+						</div>
+					</td>
+					<td align="center">
+						<h2> Você está acessando o portfólio de Bruno Cardoso. </h2>
+					</td>
 				</tr>
-				<tr>
-					<td width="100" align="left">
-						<div class="sideBar">
+				<tr width="100%" align="center">
+					<td width="20%" align="left" class="sideBar">
+						<div>
 							<p>Coiiiisaaaassss!!!</p>
 						</div>
 					</td>
-					<td align="center" bgcolor="#5050b0">
+					<td align="center" bgcolor="#5050b0" width="80%">
 						<div class="Main">
-							<frame src="mainpage.html"></frame>
-							<h2 text="#0c0cfc"> As coisas mais legais em que já trabalhei </h2>
-							<p>Esta página é temporária. Logo imagens dignas de um portfólio serão colocadas aqui. Enquanto isso olhe essa foto de um gato que achei no pintrest.
-							</p>
-							<img src="https://brunocardosodo.github.io/cat.jpg">
+							<iframe src="pages/mainpage.html" class="PageFrame"></frame>
 						</div>
 					</td>
 				</tr>
@@ -56,3 +61,4 @@
 		</table>
 	</div>
 </body>
+</html>
