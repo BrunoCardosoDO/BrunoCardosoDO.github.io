@@ -11,7 +11,9 @@
 .PageFrame{
 	width: 70%px;
 	height: 100%;
+	padding: none;
 }
+
 p{
 	color: #c0c0f0;
 }
